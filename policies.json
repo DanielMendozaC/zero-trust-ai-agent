@@ -1,0 +1,26 @@
+{
+  "read_file": {
+    "allowed": true,
+    "description": "Read file contents within sandbox"
+  },
+  "write_file": {
+    "allowed": true,
+    "description": "Write content to files within sandbox"
+  },
+  "delete_file": {
+    "allowed": false,
+    "description": "Delete files - blocked by default (destructive)"
+  },
+  "query_database": {
+    "allowed": true,
+    "description": "Execute read-only SQL queries"
+  },
+  "call_api": {
+    "allowed": true,
+    "description": "Make HTTP requests to allowlisted domains"
+  },
+  "execute_shell": {
+    "allowed": false,
+    "description": "Execute shell commands - blocked by default (high risk)"
+  }
+}
