@@ -1,0 +1,22 @@
+# Environment
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Generated at runtime
+demo.db
+audit_log.txt
+test_results.json
+output.txt
+test.txt
+private_keys.txt
+
+# Sensitive files
+credentials.txt
+Q3_security_report.txt
+
+# OS files
+.DS_Store
+Thumbs.db
